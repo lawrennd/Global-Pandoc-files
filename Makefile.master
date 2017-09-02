@@ -33,7 +33,7 @@ MEXT = md
 MS_DIR = .
 
 # Location of Pandoc support files.
-PREFIX = /Users/andrew/.pandoc
+PREFIX = $(HOME)/.pandoc
 
 # Word and HTML can choke on PDF images, so those targets use a helper script
 # named replace_pdfs to replace all references to PDFs with PNGs and convert
